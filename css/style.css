@@ -1,0 +1,109 @@
+body {
+	background-image: url("background.jpg");
+}
+
+table {
+	width: inherit !important;
+}
+
+.ui-state-focus {
+    background: #d3d3d3 !important;
+    font-weight: 700 !important;
+    border: 0px solid white !important;
+    color: black !important;
+}
+
+#roomIDButton, #searchArea, #vid {
+	display: none;
+}
+
+#join, #new {
+	margin-bottom: 5px;
+}
+#searchArea {
+	margin-top: 25px;
+}
+#search {
+	color: black;
+	margin-bottom: 30px;
+}
+
+#init {
+	text-align: center;
+	color: black;
+	background-color: white;
+	padding: 25px 10px 0px 25px;
+}
+
+#roomIDButton:hover {
+	cursor: default;
+}
+
+#thisRoom {
+    list-style: none;
+}
+
+.client:hover {
+	cursor: default;
+}
+
+.client, #roomIDButton {
+	margin: 0px 5px 5px 0px;
+}
+
+.client {
+	background-color: #ff8f00 !important;
+}
+
+#vid {
+    text-align: center;
+    min-width: 100%;
+}
+
+#init {
+	margin: 30px 40px 40px 40px;
+}
+
+#playPauseRoom {
+	width: 216px !important;
+}
+#searchResult {
+	background-color: white;
+	width: 100% !important;
+	margin-bottom: 40px;
+}
+
+#searchResult img {
+	float: left;
+	margin: 0 5px 5px 0;
+}
+
+.thumb:hover{
+	cursor: pointer;
+}
+
+#searchResult p {
+	margin: 0;
+}
+
+#vid {
+	 position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+#pproom {
+	text-align: center;
+	display: none;
+}
+
+#player {
+	position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
